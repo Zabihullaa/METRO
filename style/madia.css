@@ -1,0 +1,201 @@
+@media(max-width:1300px) {
+    .stations__img {
+        width: 650px;
+    }
+}
+
+@media(max-width:1190px) {
+    .stations__text {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    .stations__img {
+        width: 600px;
+    }
+
+    .header__img {
+        width: 190px;
+    }
+}
+
+@media(max-width:1100px) {
+
+
+    .stations__img {
+        width: 550px;
+    }
+
+    .header__img {
+        width: 190px;
+    }
+}
+
+@media(max-width:1000px) {
+    .header__img {
+        width: 190px;
+        height: 130px;
+    }
+
+    .header__botton {
+        height: 800px;
+    }
+    .stations__text {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+
+
+    .mapp {
+        height: 700px;
+    }
+}
+
+@media(max-width:940px) {
+    .stations__img {
+        width: 500px;
+    }
+
+    .stations__text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+}
+
+@media(max-width:890px) {
+    .sations__box {
+        flex-direction: column;
+    }
+
+    .stations__text {
+        text-align: center;
+    }
+
+    .stations__img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:800px) {
+    .header__botton {
+        height: 700px;
+    }
+
+    .header-title {
+        font-size: 70px;
+    }
+
+    .mapp {
+        height: 600px;
+    }
+}
+
+@media(max-width:650px) {
+    .header__nav-btn {
+        display: block;
+    }
+
+    .header__list {
+        position: fixed;
+        flex-direction: column;
+        left: 0;
+        top: 0;
+        padding: 20px;
+        bottom: 0;
+        backdrop-filter: blur(15px);
+        transform: translateX(-110%);
+        width: 220px;
+        box-shadow: 7px 0px 14px 0px red;
+        transition: 0.4s;
+    }
+
+    .header__item {
+        padding: 20px 0;
+    }
+
+    .header__link {
+        font-size: 25px;
+        line-height: 30px;
+        color: brown;
+    }
+
+    .header__nav-btn:focus+.header__list {
+        transform: translateX(0);
+    }
+    .header__botton {
+        height: 600px;
+    }
+
+}
+
+@media(max-width:560px) {
+    .header-title {
+        font-size: 60px;
+    }
+
+    .stations__text {
+        line-height: 16px;
+        font-size: 14px;
+
+
+    }
+    .header__botton {
+        height: 500px;
+    }
+    .footer__logo {
+        width: 100px;
+        height: 70px;
+    }
+    .footer__link {
+        font-size: 18px;}
+        
+}
+
+@media(max-width:480px) {
+    .header-title {
+        font-size: 50px;
+    }
+
+
+    .header__img {
+        width: 170px;
+        height: 110px;
+    }
+
+    .stations-title {
+        font-size: 30px;
+    }
+    .header__botton {
+        height: 400px;
+    }
+    .mapp{
+        height: 400px;
+    }
+}
+
+
+@media(max-width:400px) {
+    .stations__text {
+        line-height: 12px;
+        font-size: 13px;
+    }
+    .header__img {
+        width: 150px;
+        height: 90px;
+    }
+    .header-title {
+        font-size: 45px;
+    }
+}
+@media(max-width:360px){
+    .stations__text {
+        line-height: 12px;
+        font-size: 12px;
+    }
+    .header-title {
+        font-size: 40px;
+    }
+}
